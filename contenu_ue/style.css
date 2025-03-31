@@ -1,0 +1,57 @@
+
+
+
+.nav-item {
+  margin-right: 20px; /* Adjust the value as needed */
+  
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: 10px;
+  }
+
+    .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* Smooth transition */
+  }
+  .panel.show {
+    max-height: 500px; /* Or a value that's large enough to fit your content */
+    padding: 20px;
+  }
+
+  i.bi
+  {
+    font-size: 20px;
+  }
+  
+  /* post page */
+
+  .message {
+    display: block; /* Hide by default */
+}
+
+.message.hide {
+    display: none; /* Show when class "show" is added */
+}
+
+.depot {
+  display: none; /* Hide by default */
+}
+
+.depot.show {
+  display: block; /* Show when class "show" is added */
+}

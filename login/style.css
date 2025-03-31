@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#3f98be, #86c9e6, #eaefe6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+img
+{
+    width:130px;
+    height:60px;
+    display:row;
+    margin:5px;
+    padding:10px;
+    margin-left: -10px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: space-between; /* Creates space between the images */
+    align-items: center;
+    gap: 20px; /* Adjust this value to increase/decrease the space */
+}
+
+
+.login
+{
+    padding:90px;
+    margin:20px;
+    border:2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+    margin-top: 100px;
+}
+
+.input
+{
+    padding:20px;
+    margin:30px;
+    text-align: center;
+}
+.input input
+{
+    padding:20px;
+    margin:10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn
+{
+    text-align: center;
+
+}
+
+.btn button
+{
+    border: 1px solid black;
+    padding :10px 20px;
+    border-radius: 5px;
+    background-color: rgb(50, 199, 228);
+    font-size:20px;
+    cursor: pointer;
+
+}
+ h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:5px 0;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
